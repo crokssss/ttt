@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="npctts"
+version="${file.jarVersion}"
+displayName="NPC Dialogue TTS"
+authors="You"
+description='''Озвучивает текст диалога в GUI мода CustomNPCs (не в чате). Клиентский мод.'''
+
+[[dependencies.npctts]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.npctts]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="CLIENT"
